@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "journies",
+  "info": {
+    "singularName": "journy",
+    "pluralName": "journies",
+    "displayName": "Journy"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "year": {
+      "type": "string"
+    }
+  }
+}
